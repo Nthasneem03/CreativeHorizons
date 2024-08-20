@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --gradient-color:linear-gradient(#e61089,#e610c9,#c9fb02);
+    --background-color: #0f0c29;
+    --primary-color:#fbda02;
+}
+
+
+body {
+    font-family: "Dancing Script", cursive;
+    background-color: var(--background-color);
+    border: 2rem solid transparent;
+    border-image: linear-gradient(95deg,#e61089,#e610c9,#c9fb02);
+    border-image-slice: 2;
+}
+
+
+/* Navbar */
+
+.navbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    top:0;
+    left: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+.logo {
+    width: 35%;
+    height: auto;
+}
+
+.logo h1 {
+    font-size: 2.5rem;
+    padding-left: 5rem;
+    line-height: 100px;
+}
+
+ul {
+    color: var(--primary-color);
+    background-color: var(--background-color);
+}
+
+.items {
+    list-style: none;
+    width:50% ;
+    height: auto;
+    display: flex;
+    justify-content:space-around ;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    padding-top: 2rem;
+}
+
+.items li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight:100;
+    /* text-transform: uppercase; */
+    color: var(--primary-color);
+}
+
+
+.font {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 2rem;
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* we cant directly give color as grad */
+    /* text-transform: uppercase; */
+}
+
+
+.font h2 {
+    font-size: 3rem; 
+    padding-top: 10rem; 
+}
+
+.font h3{
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    /* padding-top: 2rem; */
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.font h5 {
+    font-size: 1.2rem;
+    font-family:'Peddana',serif;
+    text-align: center;
+    background: #e7d4da;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: lighter;
+    text-justify: distribute-all-lines;
+    padding-top: 1rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1.5rem;
+    background: #e7e4da;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-justify: newspaper; 
+} 
+
+
+/* Hero Section */
+#hero {
+    height: 35rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+
+}
+
+/* About Section */
+#about-image {
+    width: 35rem;
+    height: 20rem;
+}
+
+.about-heading {
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+}
+
+.about-body {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.about-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+
+/* Services Section */
+.services-heading {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.services-body {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+}
+
+
+/* Article Section */
+
+.article-heading {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.article-img {
+    width: 30rem;
+    height: 15rem;
+    padding: 0;
+}
+
+.article-1,.article-3,.article-2 {
+    display: grid;
+    grid-template-columns:1fr 1.5fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-column-gap: 5rem;
+    grid-row-gap: 1rem;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+} 
+.article-2 {
+    grid-template-columns: 1.5fr 1fr; /* Swap the column sizes */
+    padding-right: 0;
+}
+/* .article-2 {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: repeat(2,0.5fr);
+    grid-column-gap: 5rem;
+    grid-row-gap: 1rem;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 0;
+} */
+
+
+
+/* Footer Section */
+.footer-heading {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+.footer-body {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10rem;
+}
+
+
+
+
