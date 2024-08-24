@@ -1,4 +1,4 @@
-# WebProject1
+# Creative Horizons
 
 ## Project Overview
 
