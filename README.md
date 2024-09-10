@@ -18,3 +18,11 @@ This project is a simple, multi-section website that includes:
 - **AOS Library:** For scroll animations.
 - **Font Awesome:** For the icons used in the services section.
 - **Google Fonts:** For custom typography.
+
+
+
+## Contributing
+  Feel free to open issues or submit pull requests if you'd like to contribute to the project.
+
+## Contact
+For any queries or suggestions, feel free to reach out at naeemathasneem03@gmail.com.
