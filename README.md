@@ -1,4 +1,5 @@
 # Creative Horizons
+This is a simple website developed using html and css.  
 
 ## Project Overview
 
